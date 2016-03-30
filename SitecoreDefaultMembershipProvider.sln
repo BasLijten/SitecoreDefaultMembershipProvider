@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResetPassword", "ResetPassword\ResetPassword.csproj", "{1ABB27F1-BB71-4D54-A7B5-560F1821D8C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultMembersipProvider", "DefaultMembersipProvider\DefaultMembersipProvider.csproj", "{6F6DFD0B-05F1-4E1B-90E9-D0219D028823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ABB27F1-BB71-4D54-A7B5-560F1821D8C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ABB27F1-BB71-4D54-A7B5-560F1821D8C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ABB27F1-BB71-4D54-A7B5-560F1821D8C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ABB27F1-BB71-4D54-A7B5-560F1821D8C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F6DFD0B-05F1-4E1B-90E9-D0219D028823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F6DFD0B-05F1-4E1B-90E9-D0219D028823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F6DFD0B-05F1-4E1B-90E9-D0219D028823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F6DFD0B-05F1-4E1B-90E9-D0219D028823}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
