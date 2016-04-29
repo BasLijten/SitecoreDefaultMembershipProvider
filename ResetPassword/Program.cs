@@ -11,12 +11,13 @@ namespace ResetPassword
     {
         static void Main(string[] args)
         {
-            System.Security.Cryptography.CryptoConfig.AddAlgorithm(typeof(Zetetic.Security.Pbkdf2Hash), "pbkdf2_local");
-           
+            System.Security.Cryptography.CryptoConfig.AddAlgorithm(typeof(Zetetic.Security.Pbkdf2Hash), "pbkdf2_local");                        
+            
             string userId = @"sitecore\admin";
             string passwd = String.Empty;            
             MembershipUser user = Membership.GetUser(userId, false);
-            passwd = user.ResetPassword();
+            user.ResetPassword();
+            
             Console.WriteLine(passwd);
             Console.ReadLine();
         }

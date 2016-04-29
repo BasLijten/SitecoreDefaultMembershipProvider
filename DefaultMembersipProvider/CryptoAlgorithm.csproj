@@ -54,7 +54,7 @@
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Sitecore.Kernel">
-      <HintPath>..\..\Securitycore\lib\Sitecore.Kernel.dll</HintPath>
+      <HintPath>..\..\..\..\..\Source\Repos\UrlRewrite\sitecore assemblies\Sitecore.Kernel.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -99,7 +99,6 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Webconfig transformations\ChangeProvider.xdt" />
     <Content Include="Webconfig transformations\ChangePasswordHash.xdt" />
   </ItemGroup>
   <ItemGroup />

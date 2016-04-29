@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResetPassword", "ResetPassword\ResetPassword.csproj", "{1ABB27F1-BB71-4D54-A7B5-560F1821D8C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultMembersipProvider", "DefaultMembersipProvider\DefaultMembersipProvider.csproj", "{6F6DFD0B-05F1-4E1B-90E9-D0219D028823}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoAlgorithm", "DefaultMembersipProvider\CryptoAlgorithm.csproj", "{6F6DFD0B-05F1-4E1B-90E9-D0219D028823}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transformation", "Project1\Transformation.csproj", "{05B580B1-3B2B-4C26-A105-337FF286BFDF}"
 EndProject
